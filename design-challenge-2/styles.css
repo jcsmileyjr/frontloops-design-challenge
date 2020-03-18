@@ -15,7 +15,7 @@ body {
 }
 
 main {
-    height: 40vh;
+    height: 60vh;
     width: 70vw;
     display: flex;
     flex-direction: column;
@@ -73,8 +73,24 @@ img {
 
 .selectedCard {
       color: black;
-      margin-right: 20vw;
+      margin-right: 18vw;
 }
+
+.nextStepStyle {
+    background-color: blue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#arrowStyle {
+    width: 1rem;
+    height: 114%;
+}
+
+
 
 @media only screen and (min-width: 500px) {
     .selectedCard {
@@ -84,11 +100,15 @@ img {
 
 @media only screen and (min-width: 768px) {
     main {
-        height: 40vh;
+        height: 60vh;
         width: 40vw;
     }
 
     .selectedCard {
-        margin-right: 15px;
+        margin-right: 35px;
+    }
+
+    #arrowStyle1 {
+        width: 1rem;
     }
 }
