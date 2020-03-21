@@ -50,12 +50,15 @@ section {
     font-weight: bold;
 }
 
-.paymentCard {
+.paymentCard, changeBackgroundOnHover {
     border: 1px solid lightgrey;
     display: flex;
-
+    transition: .1s ease
 }
 
+.changeBackgroundOnHover:hover {
+    background-color: rgb(247, 245, 245);
+}
 
 img {
     width: 10vw;
@@ -91,9 +94,11 @@ img {
     transition: .3s ease;
 }
 
+/*
 #arrowStyle:hover {
     width: 5rem;
 }
+*/
 
 @media only screen and (min-width: 500px) {
     .selectedCard {
