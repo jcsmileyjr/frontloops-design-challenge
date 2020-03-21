@@ -1,0 +1,142 @@
+.treesBackgroundImage {
+    background-image: url("./img/background.jpg");
+     background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;/*image is size of the device screen size*/
+    background-color:"black" ;
+    background-attachment: fixed;
+    background-size: cover;/*image cover the entire screen*/
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 0;
+}
+
+section {
+    height: 10vh;
+}
+
+.tinyGreyCircle {
+    height: 5px;
+    width: 5px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    margin: 3px ;
+}
+
+.currentGreyCircle {
+    background-color: darkgray;
+}
+
+.displayCircles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+}
+
+.centerText {
+    text-align: center;
+    font-weight: bold;
+}
+
+.paymentCard, changeBackgroundOnHover {
+    border: 1px solid lightgrey;
+    display: flex;
+    transition: .1s ease;
+}
+
+.lastPaymentCard, changeBackgroundOnHover {
+    border: 1px,1px, 0px, 1px solid lightgray;
+    display: flex;
+    transition: .1s ease;
+}
+
+.changeBackgroundOnHover:hover {
+    background-color: rgb(233, 232, 232);
+}
+
+img {
+    width: 10vw;
+    height: 10vh;
+}
+
+
+.cardName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    color: grey;
+}
+
+.selectedCard {
+      color: black;
+      margin-right: 18vw;
+}
+
+.nextStepStyle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 10vh;
+}
+
+button {
+    width:100%;
+    background-color: blue;    
+    color:white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    letter-spacing: 1px;
+    
+}
+
+button:active{
+    margin-top: 5px;
+}
+
+.nextStepStyle1:active {
+    height: 9.5vh;
+}
+
+#arrowStyle {
+    width: 1rem;
+    height: 100%;
+    transition: .3s ease;
+    margin-left: 5px;
+}
+
+@media only screen and (min-width: 500px) {
+    .selectedCard {
+        margin-right: 20;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        height: 60vh;
+        width: 40vw;
+    }
+
+    .selectedCard {
+        margin-right: 35px;
+    }
+
+    #arrowStyle1 {
+        width: 1rem;
+    }
+}
