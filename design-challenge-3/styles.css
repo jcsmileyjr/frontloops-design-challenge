@@ -1,0 +1,19 @@
+body {
+    background-color: seagreen;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+}
+
+.alignElements {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
