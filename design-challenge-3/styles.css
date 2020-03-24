@@ -28,7 +28,8 @@ main {
 .imgStyle {
     position: absolute;
     top: 300px;
-    left: 265px;
+    /*left: 265px;*/
+    left: 325px;
     width: 50vw;
     height: 50vh;
 }
@@ -38,7 +39,16 @@ main {
     width: 60vw;
     height: 30vh;
     position: absolute;
-    top: 475px;
-    left: 250px;
-    
+    top: 500px;
+    left: 250px;    
+}
+
+.profileIcon {
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.profileIcon:hover {
+    box-shadow: 0px 0px 0px 3px rgb(240, 238, 238);
 }
