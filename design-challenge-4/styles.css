@@ -7,15 +7,18 @@ body {
 }
 
 main {
-    height: 80vh;
+    height: 68vh;
     width: 50vw;
     background-color: white;
     z-index: -1;
+    font-size: 10px;
 }
+
 header {
-    background-color: navy;
+    background-color: rgb(37, 155, 194);
     color:white
 }
+
 .leftRightAlignElements {
     display:flex;
     justify-content: space-between;
@@ -38,28 +41,36 @@ header {
     color: lightgrey
 }
 
-hr {
+.dateMarkerSideBars {
     border: .9px solid rgb(231, 229, 229);
     width: 20vw;
+}
+
+.endOfMessageBars {
+    border: .9px solid rgb(231, 229, 229);
+    width: 47vw;
 }
 
 .leftTime {
     color: lightgrey;
     padding-left: 10px;
+    margin-bottom: 4px;
 }
 
 .leftMessage {
     background-color: lightblue;
     padding: 10px 10px 10px 5px;
-    margin-left: 5px;
+    margin-top:0px;/*remove space between message and time stamp*/
+    margin-left: 10px;
     width: 40vw;
-    
+    border-radius: 5px;
 }
 
 .rightTime {
     color: lightgrey;
     padding-right: 10px;
     text-align: right;
+    margin-bottom: 4px;
 }
 
 .rightMessage {
@@ -67,6 +78,8 @@ hr {
     padding: 10px 10px 10px 5px;
     width: 40vw;
     margin-right: 5px;
+    margin-top:0px;/*remove space between message and time stamp*/
+    border-radius: 5px;
 }
 
 .rightAlignTextMessages {
@@ -81,5 +94,25 @@ hr {
     padding: 10px 10px 10px 5px;
     width: 40vw;
     margin-right: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.buttonStyle {
+    margin-right: 10px !important;
+    color: rgb(14, 181, 236);
+    background-color:white;
+    border: none;
+}
+
+.inputStyle {
+    background-color:white;
+    border: none;
+    margin-left:10px;
 }
 
