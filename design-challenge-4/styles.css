@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+main {
+    height: 80vh;
+    width: 50vw;
+    background-color: white;
+    z-index: -1;
+}
+header {
+    background-color: navy;
+    color:white
+}
+.leftRightAlignElements {
+    display:flex;
+    justify-content: space-between;
+}
+
+.imageStyle {
+    height: 5vh;
+    width: 5vw;
+    color: lightgrey;
+    padding-top: 10px;
+}
+
+.dateMarker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateMarkerTitle {
+    color: lightgrey
+}
+
+hr {
+    border: .9px solid rgb(231, 229, 229);
+    width: 20vw;
+}
+
+.leftTime {
+    color: lightgrey;
+    padding-left: 10px;
+}
+
+.leftMessage {
+    background-color: lightblue;
+    padding: 10px 10px 10px 5px;
+    margin-left: 5px;
+    width: 40vw;
+    
+}
+
+.rightTime {
+    color: lightgrey;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.rightMessage {
+    background-color: lightblue;
+    padding: 10px 10px 10px 5px;
+    width: 40vw;
+    margin-right: 5px;
+}
+
+.rightAlignTextMessages {
+    display: flex;
+    flex-direction: column;
+    justify-content: right; 
+}
+
+
+/*
+.dateMarker {
+    position: relative;
+}
+hr {
+    position: absolute;
+    border: 1px solid grey;
+    width: 30vw;
+    margin-top: 23px;
+}
+
+p {
+    position:absolute;
+}
+*/
