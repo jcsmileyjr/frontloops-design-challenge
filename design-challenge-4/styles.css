@@ -10,7 +10,7 @@ main {
     height: 68vh;
     width: 50vw;
     background-color: white;
-    z-index: -1;
+    /*z-index: -1; //Causing bug where input field not work*/
     font-size: 10px;
 }
 
