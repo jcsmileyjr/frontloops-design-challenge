@@ -72,22 +72,7 @@ hr {
 .rightAlignTextMessages {
     display: flex;
     flex-direction: column;
-    justify-content: right; 
+    justify-content: end;
+    align-items: flex-end;
 }
 
-
-/*
-.dateMarker {
-    position: relative;
-}
-hr {
-    position: absolute;
-    border: 1px solid grey;
-    width: 30vw;
-    margin-top: 23px;
-}
-
-p {
-    position:absolute;
-}
-*/
