@@ -63,7 +63,7 @@ hr {
 }
 
 .rightMessage {
-    background-color: lightblue;
+    background-color: rgb(233, 236, 236);
     padding: 10px 10px 10px 5px;
     width: 40vw;
     margin-right: 5px;
@@ -74,5 +74,12 @@ hr {
     flex-direction: column;
     justify-content: end;
     align-items: flex-end;
+}
+
+.blocked {
+    background-color: pink;
+    padding: 10px 10px 10px 5px;
+    width: 40vw;
+    margin-right: 5px;
 }
 
