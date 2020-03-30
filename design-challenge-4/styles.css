@@ -27,6 +27,11 @@ main {
     width: 5vw;
     padding-top: 4px;
     opacity: 0.5;/*Give faded look to image*/
+    transition: .1s ease;
+}
+
+.imageStyle:hover {
+    opacity: 1;
 }
 
 .dateMarker {
