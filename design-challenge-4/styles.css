@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+main {
+    height: 68vh;
+    width: 50vw;
+    background-color: white;
+    /*z-index: -1; //Causing bug where input field not work*/
+    font-size: 10px;
+}
+
+.headerStyle {
+    background-color: rgb(37, 155, 194);
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.imageStyle {
+    height: 5vh;
+    width: 5vw;
+    padding-top: 4px;
+    opacity: 0.5;/*Give faded look to image*/
+    transition: .1s ease;
+}
+
+.imageStyle:hover {
+    opacity: 1;
+}
+
+.dateMarker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateMarkerTitle {
+    color: lightgrey
+}
+
+.dateMarkerSideBars {
+    border: .9px solid rgb(231, 229, 229);
+    width: 20vw;
+}
+
+.endOfMessageBars {
+    border: .9px solid rgb(231, 229, 229);
+    width: 47vw;
+}
+
+.leftTime {
+    color: lightgrey;
+    padding-left: 10px;
+    margin-bottom: 4px;
+}
+
+.leftMessage {
+    background-color: lightblue;
+    padding: 10px 10px 10px 5px;
+    margin-top:0px;/*remove space between message and time stamp*/
+    margin-left: 10px;
+    width: 40vw;
+    border-radius: 5px;
+}
+
+.rightTime {
+    color: lightgrey;
+    padding-right: 10px;
+    text-align: right;
+    margin-bottom: 4px;
+}
+
+.rightMessage {
+    background-color: rgb(233, 236, 236);
+    padding: 10px 10px 10px 5px;
+    width: 40vw;
+    margin-right: 5px;
+    margin-top:0px;/*remove space between message and time stamp*/
+    border-radius: 5px;
+}
+
+.rightAlignTextMessages {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.blocked {
+    background-color: pink;
+    padding: 10px 10px 10px 5px;
+    width: 40vw;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.buttonStyle {
+    margin-right: 10px !important;
+    color: rgb(14, 181, 236);
+    background-color:white;
+    border: none;
+    font-weight: bolder;
+}
+
+.buttonStyle:hover {
+    cursor: pointer;
+}
+
+.inputStyle {
+    background-color:white;
+    border: none;
+    margin-left:10px;
+}
+
