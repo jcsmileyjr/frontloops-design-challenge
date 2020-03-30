@@ -114,6 +114,10 @@ footer {
     font-weight: bolder;
 }
 
+.buttonStyle:hover {
+    cursor: pointer;
+}
+
 .inputStyle {
     background-color:white;
     border: none;
