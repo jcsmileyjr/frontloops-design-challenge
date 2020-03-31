@@ -1,0 +1,53 @@
+.background-plane {    
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;/*image is size of the device screen size*/
+    background-color:"black" ;
+    background-attachment: fixed;
+    background-size: cover;/*image cover the entire screen*/    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main {
+    height: 50vh;
+    width: 50vw;
+    background-color: white;
+    padding:10px 15px 10px 15px;
+}
+
+.route-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.city-code {
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city {
+    color: grey;
+    margin-top: -13px;
+}
+
+.divider {
+    border: 5px lightblue solid;
+    width: 10vw;
+}
+
+.divider-container {
+    background-color: Pink;
+}
+
+
+
