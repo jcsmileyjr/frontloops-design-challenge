@@ -1,0 +1,69 @@
+.background-plane {    
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;/*image is size of the device screen size*/
+    background-color:"black" ;
+    background-attachment: fixed;
+    background-size: cover;/*image cover the entire screen*/    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main {
+    height: 70vh;
+    width: 40vw;
+    background-color: white;
+    padding:10px 15px 10px 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-code {
+    color: blue;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.city {
+    color: grey;
+    margin-top: -38px;
+    font-family: Roboto;
+}
+
+/*Styling for a divider bar between destinations text*/
+.divider {
+    border: 5px lightblue solid;
+    width: 5vw;
+}
+
+/*Styling for labels*/
+.label-title {
+    color:grey;
+}
+
+/*Styling for the content under the labels*/
+.content {
+    margin-top: -13px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.rightAlign {
+    text-align: right;
+}
+
+
+
+
+
