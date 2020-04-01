@@ -16,13 +16,13 @@ body {
 }
 
 main {
-    height: 65vh;
+    height: 70vh;
     width: 40vw;
     background-color: white;
     padding:10px 15px 10px 15px;
 }
 
-.route-section {
+section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,30 +32,35 @@ main {
 .city-code {
     color: blue;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
 }
 
 .city {
     color: grey;
-    margin-top: -13px;
+    margin-top: -38px;
+    font-family: Roboto;
 }
 
+/*Styling for a divider bar between destinations text*/
 .divider {
     border: 5px lightblue solid;
-    width: 10vw;
+    width: 5vw;
 }
 
-.divider-container {
-    background-color: Pink;
-}
-
+/*Styling for labels*/
 .label-title {
     color:grey;
 }
 
+/*Styling for the content under the labels*/
 .content {
     margin-top: -13px;
     font-weight: bold;
+    font-family: Roboto;
+}
+
+.rightAlign {
+    text-align: right;
 }
 
 
