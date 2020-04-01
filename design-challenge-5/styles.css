@@ -16,8 +16,8 @@ body {
 }
 
 main {
-    height: 50vh;
-    width: 50vw;
+    height: 65vh;
+    width: 40vw;
     background-color: white;
     padding:10px 15px 10px 15px;
 }
@@ -25,7 +25,7 @@ main {
 .route-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -48,6 +48,17 @@ main {
 .divider-container {
     background-color: Pink;
 }
+
+.label-title {
+    color:grey;
+}
+
+.content {
+    margin-top: -13px;
+    font-weight: bold;
+}
+
+
 
 
 
