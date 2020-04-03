@@ -1,0 +1,80 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+}
+
+main {
+    width: 70vw;
+    height: 80vh;
+    background-color: white;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideImage {
+    background-image: url("./img/side.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;/*image is size of the device screen size*/
+    background-color:"black" ;
+    background-size: cover;/*image cover the entire screen*/ 
+       
+}
+
+.horizontalContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+}
+
+.item {
+    flex: 1;
+}
+
+article {
+    margin: 0px 20px 20px 20px;
+}
+
+.content {
+    width: 100%;
+    flex:2;
+}
+
+.image {
+    width: 100%;
+    flex: 1;
+}
+
+.social-media-icon {
+    width: 3vw;
+}
+
+.signUpText {
+    flex: 3;
+}
+
+.social-media {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.item {
+    flex: 1;
+    font-size: 10px;
+}
+
+.right {
+    text-align: right;
+    margin-right:20px;
+}
+
+footer {
+    width: 91%;
+    height: 100%;
+    padding: 0px 20px 0px 20px;
+}
