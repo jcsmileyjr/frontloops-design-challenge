@@ -5,7 +5,7 @@ body {
     background-color: grey;
 }
 
-main {
+.layout {
     width: 70vw;
     height: 80vh;
     background-color: white;
@@ -36,13 +36,17 @@ main {
     flex: 1;
 }
 
-article {
+article, header {
     margin: 0px 20px 20px 20px;
 }
 
 .content {
     width: 100%;
     flex:2;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .image {
@@ -74,7 +78,10 @@ article {
 }
 
 footer {
-    width: 91%;
-    height: 100%;
-    padding: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px;
+    border-top-color: lightgrey;
+    border-top-style: solid;
 }
