@@ -30,6 +30,14 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid lightgray;
+    color: rgb(68, 67, 67);
+    transition: .1s ease;
+}
+
+.horizontalContent:hover {
+    box-shadow: 1px 5px 10px 5px #e7e6e6;
+    color:black;
+    cursor: pointer;
 }
 
 .item {
@@ -62,7 +70,7 @@ article, header {
 
 .signUpText {
     flex: 3;
-    color: rgb(68, 67, 67);
+    /*color: rgb(68, 67, 67);*/
 }
 
 .social-media {
@@ -84,6 +92,11 @@ article, header {
     text-align: right;
     margin-right:20px;
     color: rgb(68, 67, 67);
+}
+
+.right:hover {
+    cursor: pointer;
+    color:black;
 }
 
 footer {
