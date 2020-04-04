@@ -7,9 +7,9 @@ body {
 
 .layout {
     width: 70vw;
-    height: 80vh;
+    height: 70vh;
     background-color: white;
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body {
     background-image: url("./img/side.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;/*image is size of the device screen size*/
+    height: 70vh;/*image is size of the device screen size*/
     background-color:"black" ;
     background-size: cover;/*image cover the entire screen*/ 
        
@@ -44,9 +44,11 @@ article, header {
     width: 100%;
     flex:2;
     display: flex;
-    align-content: space-between;
+    /*align-content: space-between;*/
+    align-self: stretch;
     justify-content: center;
     flex-direction: column;
+    margin-top: -5px;
 }
 
 .image {
@@ -55,11 +57,12 @@ article, header {
 }
 
 .social-media-icon {
-    width: 3vw;
+    width: 2vw;
 }
 
 .signUpText {
     flex: 3;
+    color: rgb(68, 67, 67);
 }
 
 .social-media {
@@ -72,9 +75,15 @@ article, header {
     font-size: 10px;
 }
 
+.left {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
 .right {
     text-align: right;
     margin-right:20px;
+    color: rgb(68, 67, 67);
 }
 
 footer {
@@ -84,4 +93,16 @@ footer {
     border-top: 1px;
     border-top-color: lightgrey;
     border-top-style: solid;
+    padding-top: 2vh;
+}
+
+.hugeFontSize {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.smallText {
+    font-size: .8rem;
+    color: grey;
+    margin: 0px;
 }
