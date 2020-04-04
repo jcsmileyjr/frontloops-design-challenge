@@ -25,3 +25,7 @@ _During the 2020 Corvid-19 pandemic, I used the challenges at Frontloops.io  to 
 
 ![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop5.PNG)
 
+#### 6. Login Page with Social Media Sign-in Options
+
+![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop6.gif)
+
