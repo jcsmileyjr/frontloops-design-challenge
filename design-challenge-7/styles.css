@@ -35,7 +35,7 @@ aside {
 
 hr {
 	width: 35px;/*set length of element*/
-	border-bottom: 1px solid salmon;
+	border: 1px solid salmon;
 }
 
 /*container to set alignment of hr element*/
@@ -71,3 +71,25 @@ p {
 }
 
 
+/* organize elements in content information section horizontally*/
+.content-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/*whitespace between more image and message image*/
+.moreImageStyle {
+	margin-left: 15px;
+}
+
+/*bold time in content info section*/
+.bold {
+	font-weight: bold;
+}
+
+/*styling for the number 23 in content info section*/
+.ligthenText {
+	color: lightgrey;
+	vertical-align: top;
+}
