@@ -8,8 +8,8 @@ body {
 
 /*set the size of the user screen*/
 main {
-	width: 80vw;
-	height: 80vh;
+	width: 55vw;
+	height: 60vh;
 	display:flex;
 }
 
@@ -20,13 +20,17 @@ aside {
 	display: flex;
 	flex-direction: column;/*stack elements on top of each other*/
 	justify-content: space-between;/*elements are at opposite ends of the space*/
-	padding-left: 5vw;/*whitespace between content and left side border*/
+	padding-left: 3vw;/*whitespace between content and left side border*/
 }
 
 /*right side of the user screen*/
 .content {
 	flex: 1.5;/*content area is wider then profile area*/
-	background-color: green;/*TEST COLOR*/
+	background-color: white;
+	display: flex;
+	flex-direction: column;/*stack elements on top of each other*/
+	justify-content: space-between;/*elements are at opposite ends of the space*/
+	padding: 0px 3vw 0px 3vw;/*whitespace around the content*/
 }
 
 hr {
@@ -55,3 +59,15 @@ hr {
 	justify-content: left;/*adjust content to the left and center x-axis*/
 	align-items: center;/*adjust content to the center y-axis*/
 }
+
+/*Whitespace above content*/
+.topWhiteSapce {
+	margin-top: 30px;
+}
+
+/*Limit the numbers of characters in the content area*/
+p {
+  max-width: 50ch;
+}
+
+
