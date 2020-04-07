@@ -1,6 +1,6 @@
 # 30 UI Interface Challenge 
 
-_During the 2020 Corvid-19 pandemic, I used the challenges at Frontloops.io  to sharpen my CSS and HTML skills._
+_During the 2020 Corvid-19 pandemic, I worked on challenges from Frontloops.io  to sharpen my CSS and HTML skills._
 
 #### 1. Credit Card Payment
 
@@ -29,3 +29,6 @@ _During the 2020 Corvid-19 pandemic, I used the challenges at Frontloops.io  to 
 
 ![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop6.gif)
 
+#### 7. Respecting Women Article
+
+![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloops7.PNG)

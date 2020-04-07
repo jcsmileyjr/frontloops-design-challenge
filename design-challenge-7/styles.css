@@ -9,7 +9,7 @@ body {
 /*set the size of the user screen*/
 main {
 	width: 55vw;
-	height: 60vh;
+	height: 68vh;
 	display:flex;
 }
 
@@ -67,7 +67,8 @@ hr {
 
 /*Limit the numbers of characters in the content area*/
 p {
-  max-width: 50ch;
+	max-width: 50ch;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
 }
 
 
@@ -75,6 +76,7 @@ p {
 .content-info {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 10px;
 }
 
 
@@ -106,6 +108,10 @@ p {
 	font-weight: 100;
 	margin-top: -15px;/*reduce whitespace above*/
 }
+
+.titleMan {
+	color:white;
+	}
 
 /*Styling for label on left side with author name*/
 .authorName {
