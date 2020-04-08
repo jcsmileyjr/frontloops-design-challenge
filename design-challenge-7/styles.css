@@ -1,0 +1,124 @@
+body {
+	background: rgb(248, 204, 146);/*background color of the screen around the user screen*/
+	display:flex;
+	height: 100vh;
+	justify-content: center;/*center the user screen*/
+	align-items: center;/*center the user screen*/
+}
+
+/*set the size of the user screen*/
+main {
+	width: 55vw;
+	height: 68vh;
+	display:flex;
+}
+
+/*left side of the user screen*/
+aside {
+	flex:1;
+	background-color: #292929;
+	display: flex;
+	flex-direction: column;/*stack elements on top of each other*/
+	justify-content: space-between;/*elements are at opposite ends of the space*/
+	padding-left: 3vw;/*whitespace between content and left side border*/
+}
+
+/*right side of the user screen*/
+.content {
+	flex: 1.5;/*content area is wider then profile area*/
+	background-color: white;
+	display: flex;
+	flex-direction: column;/*stack elements on top of each other*/
+	justify-content: space-between;/*elements are at opposite ends of the space*/
+	padding: 0px 3vw 0px 3vw;/*whitespace around the content*/
+}
+
+hr {
+	width: 35px;/*set length of element*/
+	border: 1px solid salmon;
+}
+
+/*container to set alignment of hr element*/
+.leftAlignHr {
+	float: left;/*left align an html element*/
+	margin-top: -20px;/*reduce whitespace above hr element*/
+}
+
+/*profile picture*/
+.profileImageStyle {
+	border-radius: 60px;/*make profile pic round*/
+	width: 60px;/*profile pic size*/
+	height: 60px;/*profile pic size*/
+	margin-right: 10px;/*space between profile pic and label*/
+}
+
+/*profile picture section*/
+.profile {
+	margin-bottom: 20px;/*whitespace below picture*/
+	display: flex;
+	justify-content: left;/*adjust content to the left and center x-axis*/
+	align-items: center;/*adjust content to the center y-axis*/
+}
+
+/*Whitespace above content*/
+.topWhiteSapce {
+	margin-top: 30px;
+}
+
+/*Limit the numbers of characters in the content area*/
+p {
+	max-width: 50ch;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+
+
+/* organize elements in content information section horizontally*/
+.content-info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+
+/*whitespace between more image and message image*/
+.moreImageStyle {
+	margin-left: 15px;
+}
+
+/*bold time in content info section*/
+.bold {
+	font-weight: bold;
+}
+
+/*styling for the number 23 in content info section*/
+.ligthenText {
+	color: rgb(172, 169, 169);
+	vertical-align: top;
+}
+
+/*Special firt letter in content text*/
+.specialText {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+/*h1 with respect text content*/
+.respect {
+	color: lightgray;
+	font-weight: 100;
+	margin-top: -15px;/*reduce whitespace above*/
+}
+
+.titleMan {
+	color:white;
+	}
+
+/*Styling for label on left side with author name*/
+.authorName {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
