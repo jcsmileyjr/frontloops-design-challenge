@@ -1,0 +1,46 @@
+body {
+	display: flex;/*center the main element in middle of the screen*/
+	justify-content: center;/*center the main element in middle of the screen*/
+	align-items: center;/*center the main element in middle of the screen*/
+	background-color: rgb(250, 227, 231);
+	height: 100vh;/*center the main element in middle of the screen*/
+}
+
+main {
+	background-color: white;
+	width: 80vw;/*set the width*/
+	height: 80vh;/*set the height*/
+	display:flex;
+	flex-direction: row;
+}
+
+aside {
+	flex: 1;/*set width of element containing hero picture*/
+	background-image: url("./img/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center left ;
+	height: 80vh;/*image is size of the device screen size*/
+	background-color:"black" ;
+	background-size: cover;/*image cover the entire screen*/
+}
+
+.content {
+	flex: 1.5;/*set width of the content area*/
+	background-color: brown;/*TESTING*/
+}
+
+.nav-back {
+	display: flex;/*center to the left the back navigtion elements*/
+	justify-content: left;/*center to the left the back navigtion elements*/
+	align-content: center;/*center to the left the back navigtion elements*/
+}
+
+.backIcon {
+	margin-right: 10px;/*whitespace between img and text*/
+}
+
+.nav-menu {
+	display: flex;/*center to the left the back navigtion elements*/
+	justify-content: center;/*center to the left the back navigtion elements*/
+	align-content: center;/*center to the left the back navigtion elements*/
+}
