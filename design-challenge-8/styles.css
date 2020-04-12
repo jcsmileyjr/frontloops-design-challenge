@@ -21,7 +21,7 @@ aside {
 	background-position: center left ;
 	height: 80vh;/*image is size of the device screen size*/
 	background-color:"black" ;
-	background-size: cover;/*image cover the entire screen*/
+	background-size: contain;/*image cover the entire screen*/
 }
 
 .content {
