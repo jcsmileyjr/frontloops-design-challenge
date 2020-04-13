@@ -117,4 +117,13 @@ a {
 .show-photos {
 	font-size: 10px;/*font size of text*/
 	justify-content: left;/*left align content*/
+	font-weight: bold;
+}
+
+h1 {
+	font-weight: 500;
+}
+
+.white-halo {
+	background-color: white;
 }
