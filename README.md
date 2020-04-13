@@ -1,6 +1,6 @@
 # 30 UI Interface Challenge 
 
-_During the 2020 Corvid-19 pandemic, I worked on challenges from Frontloops.io  to sharpen my CSS and HTML skills._
+_During the 2020 Corvid-19 pandemic, I worked on UI challenges from Frontloops.io  to sharpen my CSS and HTML skills by converting PSDs._
 
 #### 1. Credit Card Payment
 
@@ -32,3 +32,7 @@ _During the 2020 Corvid-19 pandemic, I worked on challenges from Frontloops.io  
 #### 7. Respecting Women Article
 
 ![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloops7.PNG)
+
+#### 8. Pastelle City Tourism Ad
+
+![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop8.gif)

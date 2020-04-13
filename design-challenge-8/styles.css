@@ -1,0 +1,160 @@
+body {
+	display: flex;/*center the main element in middle of the screen*/
+	justify-content: center;/*center the main element in middle of the screen*/
+	align-items: center;/*center the main element in middle of the screen*/
+	background-color: rgb(250, 227, 231);
+	height: 100vh;/*center the main element in middle of the screen*/
+}
+
+main {
+	background-color: white;
+	width: 70vw;/*set the width*/
+	height: 80vh;/*set the height*/
+	display:flex;
+	flex-direction: row;
+}
+
+aside {
+	flex: 1;/*set width of element containing hero picture*/
+	background-image: url("./img/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center left ;
+	height: 80vh;/*image is size of the device screen size*/
+	background-color:"black" ;
+	background-size: contain;/*image cover the entire screen*/
+}
+
+.video-background {
+	background-image: url("./img/preview.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100px;/*image is size of the device screen size*/
+	width: 100%;
+	background-color:"black" ;
+	background-size: cover;/*image cover the entire screen*/
+}
+
+.video-background:hover {
+	cursor: pointer;/*add pointer when cursor hover*/
+}
+
+.video-container {
+	width:50%;/*half of the section space*/
+	padding-right: 40px;/*white-space to right of element*/
+}
+
+.article-description {
+	width: 50%;/*half of the section space*/
+	padding-right: 47px;/*white-space to right of element*/
+	font-family: Roboto;
+	margin-top: 0px;
+}
+
+.content-container {
+	flex: 1.5;/*set width of the content area*/
+}
+
+/*center content in the content container*/
+.center-elements {
+	display: flex;/*center the main element in middle of the screen*/
+	justify-content: center;/*center the main element in middle of the screen*/
+	align-items: center;/*center the main element in middle of the screen*/
+		
+}
+
+.nav-back {
+	display: flex;/*center to the left the back navigtion elements*/
+	justify-content: left;/*center to the left the back navigtion elements*/
+	align-content: center;/*center to the left the back navigtion elements*/
+	margin-left: 20px;
+}
+
+.backIcon {
+	margin-right: 5px;/*whitespace between img and text*/
+}
+
+.nav-menu {
+	display: flex;/*center to the left the back navigtion elements*/
+	justify-content: flex-end;/*center to the left the back navigtion elements*/
+	align-content: center;/*center to the left the back navigtion elements*/
+}
+
+a {
+	margin: 10px;/*white-space around link*/
+}
+
+.city-info {
+	margin-top: 50px;/*whitespace between nav links and article title*/
+}
+
+/*set the style for black bar beside the article title*/
+.bar {
+	border: 1.5px solid black;
+	width: 10vw;
+	margin-left: 25px;
+}
+
+/*style the bottom article title text and bar*/
+.show-bar {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	
+}
+
+/*style the article title*/
+.article-title {
+	font-size: 3rem;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-family: "Playfair-display";
+}
+
+/*color for the links not in use*/
+.greyText {
+	color:grey;
+}
+
+.city-details {
+	display:flex;
+}
+
+.show-photos {
+	font-size: 10px;/*font size of text*/
+	justify-content: left;/*left align content*/
+	font-weight: bold;
+}
+
+.show-photos:hover {
+	cursor: pointer;/*add pointer when cursor hover*/
+}
+
+h1 {
+	font-weight: 500;
+}
+
+/*Style white circle behind play icon inside of video*/
+.white-halo {
+	background-color: white;
+	border-radius: 30px;/*make the div round*/
+	opacity: 0.9;/*make it translution*/
+	height: 30px;
+	width: 30px;
+}
+
+/*Style text for back icon*/
+.back-style {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.664)
+}
+
+.back-style:hover {
+	cursor: pointer;/*add pointer when cursor hover*/
+	color:black;/*change color when cursor hover*/
+}
+
+a:hover {
+	cursor: pointer;/*add pointer when cursor hover*/
+	color:black;/*change color when cursor hover*/
+}
