@@ -8,7 +8,7 @@ body {
 
 main {
 	background-color: white;
-	width: 80vw;/*set the width*/
+	width: 70vw;/*set the width*/
 	height: 80vh;/*set the height*/
 	display:flex;
 	flex-direction: row;
@@ -24,9 +24,35 @@ aside {
 	background-size: contain;/*image cover the entire screen*/
 }
 
-.content {
+.video-background {
+	background-image: url("./img/preview.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 120px;/*image is size of the device screen size*/
+	width: 100%;
+	background-color:"black" ;
+	background-size: cover;/*image cover the entire screen*/
+}
+
+.video-container {
+	width:50%;
+	padding-right: 40px;
+}
+
+.article-description {
+	width: 50%;
+	padding-right: 47px;
+}
+
+.content-container {
 	flex: 1.5;/*set width of the content area*/
-	background-color: brown;/*TESTING*/
+}
+
+.content {
+	display: flex;/*center the main element in middle of the screen*/
+	justify-content: center;/*center the main element in middle of the screen*/
+	align-items: center;/*center the main element in middle of the screen*/
+		
 }
 
 .nav-back {
@@ -41,6 +67,43 @@ aside {
 
 .nav-menu {
 	display: flex;/*center to the left the back navigtion elements*/
-	justify-content: center;/*center to the left the back navigtion elements*/
+	justify-content: flex-end;/*center to the left the back navigtion elements*/
 	align-content: center;/*center to the left the back navigtion elements*/
+}
+
+a {
+	margin: 10px;
+}
+
+.city-info {
+	margin-top: 50px;/*whitespace between nav links and article title*/
+}
+
+.bar {
+	border: 1.5px solid black;
+	width: 10vw;
+	margin-left: 25px;
+}
+
+.show-bar {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	
+}
+
+.article-title {
+	font-size: 3rem;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-family: "Playfair-display";
+}
+
+.greyText {
+	color:grey;
+}
+
+.city-details {
+	display:flex;
 }
