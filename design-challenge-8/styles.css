@@ -34,6 +34,10 @@ aside {
 	background-size: cover;/*image cover the entire screen*/
 }
 
+.video-background:hover {
+	cursor: pointer;/*add pointer when cursor hover*/
+}
+
 .video-container {
 	width:50%;/*half of the section space*/
 	padding-right: 40px;/*white-space to right of element*/
@@ -107,6 +111,7 @@ a {
 	font-family: "Playfair-display";
 }
 
+/*color for the links not in use*/
 .greyText {
 	color:grey;
 }
@@ -121,19 +126,35 @@ a {
 	font-weight: bold;
 }
 
+.show-photos:hover {
+	cursor: pointer;/*add pointer when cursor hover*/
+}
+
 h1 {
 	font-weight: 500;
 }
 
+/*Style white circle behind play icon inside of video*/
 .white-halo {
 	background-color: white;
-	border-radius: 30px;
-	opacity: 0.9;
+	border-radius: 30px;/*make the div round*/
+	opacity: 0.9;/*make it translution*/
 	height: 30px;
 	width: 30px;
 }
 
+/*Style text for back icon*/
 .back-style {
 	font-size: 12px;
 	color: rgba(0, 0, 0, 0.664)
+}
+
+.back-style:hover {
+	cursor: pointer;/*add pointer when cursor hover*/
+	color:black;/*change color when cursor hover*/
+}
+
+a:hover {
+	cursor: pointer;/*add pointer when cursor hover*/
+	color:black;/*change color when cursor hover*/
 }
