@@ -62,10 +62,11 @@ aside {
 	display: flex;/*center to the left the back navigtion elements*/
 	justify-content: left;/*center to the left the back navigtion elements*/
 	align-content: center;/*center to the left the back navigtion elements*/
+	margin-left: 20px;
 }
 
 .backIcon {
-	margin-right: 10px;/*whitespace between img and text*/
+	margin-right: 5px;/*whitespace between img and text*/
 }
 
 .nav-menu {
@@ -126,4 +127,13 @@ h1 {
 
 .white-halo {
 	background-color: white;
+	border-radius: 30px;
+	opacity: 0.9;
+	height: 30px;
+	width: 30px;
+}
+
+.back-style {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.664)
 }
