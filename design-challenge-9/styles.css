@@ -26,6 +26,7 @@ aside {
 #content {
 	width:60%;
 	padding:30px;
+	overflow:auto;
 }
 
 /*content in this area is horizontal and centered*/
@@ -84,7 +85,8 @@ aside {
 }
 
 .green-price {
-	color:green;
+	color:rgb(121, 207, 121);
+	font-size: 1.5rem;
 }
 
 .blue-price {
