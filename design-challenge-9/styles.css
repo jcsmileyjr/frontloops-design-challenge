@@ -97,15 +97,22 @@ aside {
 	font-size:.6rem
 }
 
-.transaction-text {
-	font-weight: bold;
-	text-align: left;
-}
-
 .side-element {
 	flex: 1;
 }
 
 .center-element {
 	flex:6;
+}
+
+.grey-circle {
+	height: 35px;
+	width: 35px;
+	border-radius: 30px;
+	border: 1px solid lightgrey;
+	margin: 3px ;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	margin-right: 2vw;
 }
