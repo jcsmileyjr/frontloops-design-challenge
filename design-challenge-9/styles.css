@@ -44,6 +44,9 @@ aside {
 
 .credit-card-paragraph-style {
 	margin-top: -8px;
+	font-weight: bold;
+	color:rgb(100, 99, 99);
+	font-size: larger;
 }
 
 .space-between-credit-cards {
