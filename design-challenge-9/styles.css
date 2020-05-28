@@ -9,7 +9,7 @@ body {
 
 main {
 	height: 73vh;
-	width: 70vw;
+	width: 60vw;
 	background-color: white;
 	margin-top: 10vh;
 	display: flex;/*organize the aside and content areas horizontlly*/
@@ -75,7 +75,7 @@ aside:hover {
 
 .bold-text {
 	font-weight: bolder;
-	font-size: larger;
+	font-size: 1.5rem;
 }
 
 .top-transaction-text {
