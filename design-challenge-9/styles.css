@@ -1,0 +1,133 @@
+
+body {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(250, 203, 117);
+}
+
+
+main {
+	height: 73vh;
+	width: 60vw;
+	background-color: white;
+	margin-top: 10vh;
+	display: flex;/*organize the aside and content areas horizontlly*/
+}
+
+aside {
+	width:40%;
+	height: 64vh;
+	background-color: rgb(243, 241, 241);
+	padding: 30px;
+	overflow:hidden;
+}
+
+aside:hover {
+	overflow: auto;
+}
+
+#content {
+	width:60%;
+	padding:30px;
+	overflow:hidden;
+}
+
+#content:hover {
+	overflow:auto;
+}
+
+/*content in this area is horizontal and centered*/
+.horizontal-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.credit-card-style {
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+	box-shadow: .1px 1px .0px lightgray;
+}
+
+.credit-card-style:hover {
+	cursor: pointer;
+	border: 2px solid navy;
+	box-shadow: navy;
+}
+
+.credit-card-paragraph-style {
+	margin-top: -8px;
+	font-weight: bold;
+	color:rgb(100, 99, 99);
+	font-size: larger;
+}
+
+.space-between-credit-cards {
+	margin-top: 25px;
+}
+
+.seperator-style {
+	border:.2px solid lightgrey;
+}
+
+.bold-text {
+	font-weight: bolder;
+	font-size: 1.5rem;
+}
+
+.top-transaction-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: Roboto;
+}
+
+.bottom-transaction-text {
+	font-size: 1.2rem;
+	color: rgb(190, 190, 190);
+	margin-top: -15px;
+	font-weight: bold;
+	font-family: Roboto;
+}
+
+.green-price {
+	color:rgb(121, 207, 121);
+	font-size: 1.5rem;
+}
+
+.blue-price {
+	color:rgb(147, 147, 214);
+	font-size: 1.5rem;
+}
+
+.text-up-high {
+	vertical-align: top;
+	font-size:.9rem
+}
+
+.side-element {
+	flex: 1;
+}
+
+.center-element {
+	flex:6;
+}
+
+.grey-circle {
+	height: 35px;
+	width: 35px;
+	border-radius: 30px;
+	border: 1px solid lightgrey;
+	margin: 3px ;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	margin-right: 2vw;
+}
+
+.balance-style {
+	font-weight: bolder;
+	font-size: 2rem;
+}

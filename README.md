@@ -36,3 +36,7 @@ _During the 2020 Corvid-19 pandemic, I worked on UI challenges from Frontloops.i
 #### 8. Pastelle City Tourism Ad
 
 ![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop8.gif)
+
+#### 9. Digital Wallet Transaction Log
+
+![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop9.gif)
