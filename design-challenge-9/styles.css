@@ -25,6 +25,7 @@ aside {
 
 #content {
 	width:60%;
+	padding:30px;
 }
 
 /*content in this area is horizontal and centered*/
@@ -57,4 +58,17 @@ aside {
 
 .space-between-credit-cards {
 	margin-top: 25px;
+}
+
+.seperator-style {
+	border:.2px solid lightgrey;
+}
+
+.bold-price {
+	font-weight: bold;
+}
+
+.text-up-high {
+	vertical-align: top;
+	font-size:.6rem
 }
