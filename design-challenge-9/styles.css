@@ -17,7 +17,7 @@ main {
 
 aside {
 	width:40%;
-	height: 65vh;
+	height: 64vh;
 	background-color: rgb(243, 241, 241);
 	padding: 30px;
 	overflow:auto;
@@ -42,6 +42,12 @@ aside {
 	box-shadow: .1px 1px .0px lightgray;
 }
 
+.credit-card-style:hover {
+	cursor: pointer;
+	border: 2px solid navy;
+	box-shadow: navy;
+}
+
 .credit-card-paragraph-style {
 	margin-top: -8px;
 	font-weight: bold;
@@ -50,5 +56,5 @@ aside {
 }
 
 .space-between-credit-cards {
-	margin-top: 20px;
+	margin-top: 25px;
 }
