@@ -104,7 +104,7 @@ aside:hover {
 
 .text-up-high {
 	vertical-align: top;
-	font-size:.6rem
+	font-size:.9rem
 }
 
 .side-element {
@@ -125,4 +125,9 @@ aside:hover {
     justify-content: center;
 	align-items: center;
 	margin-right: 2vw;
+}
+
+.balance-style {
+	font-weight: bolder;
+	font-size: 2rem;
 }
