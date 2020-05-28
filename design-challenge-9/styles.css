@@ -64,11 +64,48 @@ aside {
 	border:.2px solid lightgrey;
 }
 
-.bold-price {
+.bold-text {
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.top-transaction-text {
+	font-size: 1.5rem;
 	font-weight: bold;
+	font-family: Roboto;
+}
+
+.bottom-transaction-text {
+	font-size: 1.2rem;
+	color: rgb(190, 190, 190);
+	margin-top: -15px;
+	font-weight: bold;
+	font-family: Roboto;
+}
+
+.green-price {
+	color:green;
+}
+
+.blue-price {
+	color:rgb(147, 147, 214);
+	font-size: 1.5rem;
 }
 
 .text-up-high {
 	vertical-align: top;
 	font-size:.6rem
+}
+
+.transaction-text {
+	font-weight: bold;
+	text-align: left;
+}
+
+.side-element {
+	flex: 1;
+}
+
+.center-element {
+	flex:6;
 }
