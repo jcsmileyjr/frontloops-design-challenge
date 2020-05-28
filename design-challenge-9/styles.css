@@ -20,12 +20,20 @@ aside {
 	height: 64vh;
 	background-color: rgb(243, 241, 241);
 	padding: 30px;
-	overflow:auto;
+	overflow:hidden;
+}
+
+aside:hover {
+	overflow: auto;
 }
 
 #content {
 	width:60%;
 	padding:30px;
+	overflow:hidden;
+}
+
+#content:hover {
 	overflow:auto;
 }
 
