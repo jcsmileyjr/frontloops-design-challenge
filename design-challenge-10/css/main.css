@@ -1,0 +1,52 @@
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.display-content-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Remove border*/
+.header-input-style {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/*When the user click on input, the outline is not shown. Different from border*/
+.header-input-style:focus {
+    outline-width: 0px;
+}
+
+.header-logo {
+    text-align: left;
+    padding-bottom: 1vh;
+}
+
+.header-content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-content > a {
+    margin: 0vw 1vw 0vw 1vw;
+    padding-bottom: 1vh;
+}
+
+.header-content > a:hover {
+    border-bottom: 2px solid grey;
+    
+}
+
+.set-content-space-1{
+    flex: 1;
+}
+
+.set-content-space-4{
+    flex: 4;
+}
