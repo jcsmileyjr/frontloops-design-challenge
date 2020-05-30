@@ -49,7 +49,7 @@ h1 {
 }
 
 .set-content-space-1{
-    flex: 1;
+    flex: 1.5;
 }
 
 .set-content-space-4{
@@ -76,6 +76,7 @@ h1 {
 .top-content {
     width: 40%;
     margin-top: 20vh;
+    z-index: 5;
 }
 
 #top-content-layout {
@@ -84,8 +85,10 @@ h1 {
     height: 90vh;
 }
 
-.red-watch {
-    background-image: url("../img/watches.jpg");
-    background-repeat: no-repeat;
+.red-watch-style {
+    width: 40vw;
+    height:100%;
+    z-index: 10;
+    position: absolute;
 }
 
