@@ -80,5 +80,11 @@ h1 {
 #top-content-layout {
     display: flex;
     flex-direction: row;
+    height: 90vh;
+}
+
+.red-watch {
+    background-image: url("../img/watches.jpg");
+    background-repeat: no-repeat;
 }
 
