@@ -84,14 +84,18 @@ h1 {
     display: flex;
     flex-direction: row;
     height: 90vh;
-    border-bottom: 1px solid lightgrey;
     margin-bottom:5vh;
+}
+
+#mid-content-layout {
+    border-top: 1px solid lightgrey;
+    padding-top:5vh;
 }
 
 .red-watch-style {
     width: 40vw;
-    height:92.1%;
-    z-index: 10;
+    /*height:92.1%;*/
+    height: 95vh;
     position: absolute;
 }
 
@@ -129,6 +133,13 @@ h1 {
     background-image: url("../img/preview.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
+.sports-band-section-style {
+    margin-top: 15vh;
+}
+
+.sports-band-text-style {
+    padding-right: 100px;
+}
