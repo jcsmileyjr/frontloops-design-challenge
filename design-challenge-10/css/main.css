@@ -79,7 +79,7 @@ h1 {
     z-index: 5;
 }
 
-#top-content-layout {
+#top-content-layout, #mid-content-layout {
     display: flex;
     flex-direction: row;
     height: 90vh;
@@ -90,5 +90,21 @@ h1 {
     height:100%;
     z-index: 10;
     position: absolute;
+}
+
+.white-space-between-cards {
+    margin-left: 6vw;
+    margin-right:6vw;
+}
+
+.ellipsis-style {
+    color:grey;
+    letter-spacing: 8px;
+    font-size: 1.5rem;
+}
+
+.text-learn-more-style {
+    color:#DB5344;
+    font-weight: bold;
 }
 
