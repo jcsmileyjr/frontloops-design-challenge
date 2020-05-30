@@ -8,6 +8,7 @@ h1 {
     font-size: 40px;
 }
 
+
 .display-content-horizontal {
     display: flex;
     flex-direction: row;
@@ -27,7 +28,7 @@ h1 {
 }
 
 .header-logo {
-    text-align: center;
+    /*text-align: center;*/
     padding-bottom: 1vh;
 }
 
@@ -72,8 +73,12 @@ h1 {
     opacity: .9;
 }
 
-#top-content {
+.top-content {
     width: 40%;
+}
+
+#top-content-layout {
     display: flex;
     flex-direction: row;
 }
+

@@ -12,29 +12,37 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <main class="set-content-space-4">
+    <main>
       <header class="display-content-horizontal">
-        <section class='set-content-space-1 header-logo'>
-          <img class="" src="img/logo.svg" />
+        <section class="set-content-space-1">left</section>
+        <section class="set-content-space-4 display-content-horizontal">
+          <article class='header-logo'>
+            <img class="" src="img/logo.svg" />
+          </article>
+          <article class="header-content">
+            <a>About</a>
+            <a>Offers</a>
+            <a>Services</a>
+            <input class="header-input-style" type="text" />
+          </article>
         </section>
-        <section class="header-content set-content-space-1">
-          <a>About</a>
-          <a>Offers</a>
-          <a>Services</a>
-          <input class="header-input-style" type="text" />
-        </section>
+        <section class="set-content-space-1">right</section>
       </header>
-      <section id="top-content">
+      <section id="top-content-layout">
         <article class="set-content-space-1">left</article>
-        <h1>Freedom Calls.</h1>
-        <p class="keynote-text-style">Answer a call from your surfboard. Ask Siri to send a message.
-          Stream your favorite songs on your run. And do it all while
-          leaving your phone behind. Introducing Apple Watch Series 3 with 
-          cellular. Now you have the freedom to go with just your watch.
-        </p>
+        <article class="set-content-space-4">
+          <div class="top-content">
+            <h1>Freedom Calls.</h1>
+            <p class="keynote-text-style">Answer a call from your surfboard. Ask Siri to send a message.
+              Stream your favorite songs on your run. And do it all while
+              leaving your phone behind. Introducing Apple Watch Series 3 with 
+              cellular. Now you have the freedom to go with just your watch.
+            </p>        
+            <button type="button" class="button-style">WATCH THE KEYNOTE</button>
+          </div>
+        </article>
+        <article class="set-content-space-1">right</article>
       </section>
-      <button type="button" class="button-style">WATCH THE KEYNOTE</button>
-      <article class="set-content-space-1">right</article>
     </main>
   </body>
 </html>
