@@ -1,8 +1,4 @@
 
-body {
-
-}
-
 h1 {
     font-family: Roboto;
     font-size: 40px;
@@ -71,6 +67,11 @@ h1 {
     padding: 1.1vw;
     border:none;
     opacity: .9;
+    transition: background-color 0.5s ease;
+}
+
+.button-style:hover {
+    background-color: #c03425;
 }
 
 .top-content {
