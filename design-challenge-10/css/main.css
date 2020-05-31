@@ -1,4 +1,8 @@
 
+main {
+    
+}
+
 h1 {
     font-family: Roboto;
     font-size: 40px;
@@ -92,6 +96,10 @@ h1 {
     padding-top:5vh;
 }
 
+#bottom-content-layout {
+    margin-top:20vh;
+}
+
 .red-watch-style {
     width: 40vw;
     /*height:92.1%;*/
@@ -142,4 +150,15 @@ h1 {
 
 .sports-band-text-style {
     padding-right: 100px;
+}
+
+.runner-background-image {
+    background-image: url("../img/runners.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+.bottom-content-text {
+    
 }
