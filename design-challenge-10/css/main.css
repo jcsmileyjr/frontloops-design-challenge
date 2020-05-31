@@ -82,15 +82,15 @@ h1 {
 
 .top-content {
     width: 40%;
-    margin-top: 20vh;
-    margin-bottom: 26vh;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
 }
 
 #top-content-layout, #mid-content-layout, #bottom-content-layout {
     display: flex;
     flex-direction: row;
     height: 90vh;
-    margin-bottom:5vh;
+    /*margin-bottom:5vh;*/
     flex:1;
 }
 
@@ -100,14 +100,21 @@ h1 {
 }
 
 #bottom-content-layout {
-
+    margin-top:10vh;
 }
 
 .red-watch-style {
     width: 40vw;
     /*height:92.1%;*/
-    height: 95vh;
-    position: absolute;
+    height: 90vh;
+}
+
+.redwatch-background-image {
+    background-image: url("../img/watches.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding-right:75px;
 }
 
 .white-space-between-cards {
