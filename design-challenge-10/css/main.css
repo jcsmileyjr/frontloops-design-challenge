@@ -100,7 +100,7 @@ h1 {
 }
 
 #bottom-content-layout {
-    
+
 }
 
 .red-watch-style {
@@ -156,12 +156,20 @@ h1 {
 }
 
 .runner-background-image {
-    background-image: url("../img/runners.jpg");
+    /*background-image: url("../img/runners.jpg");*/
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/runners.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;  
 }
 
 .bottom-content-text {
-    
+    margin-top: 20vh;
+    margin-bottom: 26vh;
+    color:white;
+}
+
+.runners-text-style {
+    border-left: 2px solid white;
+    padding-left:2vw;
 }
