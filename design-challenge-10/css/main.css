@@ -1,6 +1,8 @@
 
 main {
-    
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
 
 h1 {
@@ -81,7 +83,7 @@ h1 {
 .top-content {
     width: 40%;
     margin-top: 20vh;
-    z-index: 5;
+    margin-bottom: 26vh;
 }
 
 #top-content-layout, #mid-content-layout, #bottom-content-layout {
@@ -89,6 +91,7 @@ h1 {
     flex-direction: row;
     height: 90vh;
     margin-bottom:5vh;
+    flex:1;
 }
 
 #mid-content-layout {
@@ -97,7 +100,7 @@ h1 {
 }
 
 #bottom-content-layout {
-    margin-top:20vh;
+    
 }
 
 .red-watch-style {
