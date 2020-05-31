@@ -1,0 +1,182 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 40px;
+}
+
+
+.display-content-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Remove border*/
+.header-input-style {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/*When the user click on input, the outline is not shown. Different from border*/
+.header-input-style:focus {
+    outline-width: 0px;
+}
+
+.header-logo {
+    /*text-align: center;*/
+    padding-bottom: 1vh;
+}
+
+.header-content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-content > a {
+    margin: 0vw 1vw 0vw 1vw;
+    padding-bottom: 1vh;
+}
+
+.header-content > a:hover {
+    border-bottom: 2px solid grey;
+    
+}
+
+.set-content-space-1{
+    flex: 1.5;
+}
+
+.set-content-space-4{
+    flex: 4;
+}
+
+.keynote-text-style {
+    color: #a3a1a1;
+    border-left: 2px solid grey;
+    padding-left:2vw;
+}
+
+
+.button-style {
+    background-color: #DB5344;
+    color:white;
+    font-weight: bolder;
+    padding: 1.1vw;
+    border:none;
+    opacity: .9;
+    transition: background-color 0.5s ease;
+    margin-top:5vh;
+}
+
+.button-style:hover {
+    background-color: #c03425;
+}
+
+.top-content {
+    width: 40%;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+}
+
+#top-content-layout, #mid-content-layout, #bottom-content-layout {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    /*margin-bottom:5vh;*/
+    flex:1;
+}
+
+#mid-content-layout {
+    border-top: 1px solid lightgrey;
+    padding-top:5vh;
+}
+
+#bottom-content-layout {
+    margin-top:10vh;
+}
+
+.red-watch-style {
+    width: 40vw;
+    /*height:92.1%;*/
+    height: 90vh;
+}
+
+.redwatch-background-image {
+    background-image: url("../img/watches.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding-right:75px;
+}
+
+.white-space-between-cards {
+    margin-left: 6vw;
+    margin-right:6vw;
+}
+
+.ellipsis-style {
+    color:grey;
+    letter-spacing: 8px;
+    font-size: 1.5rem;
+}
+
+.learn-more-section {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: left;
+}
+
+.text-learn-more-style {
+    color:#DB5344;
+    font-weight: bold;
+}
+
+.animated-rectangle {
+    height: 3px;
+    width:2.5vw;
+    background-color: #DB5344;
+    margin-right:1vw;
+}
+
+.preview-background-image {
+    background-image: url("../img/preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sports-band-section-style {
+    margin-top: 15vh;
+}
+
+.sports-band-text-style {
+    padding-right: 100px;
+}
+
+.runner-background-image {
+    /*background-image: url("../img/runners.jpg");*/
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/runners.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+.bottom-content-text {
+    margin-top: 20vh;
+    margin-bottom: 26vh;
+    color:white;
+}
+
+.runners-text-style {
+    border-left: 2px solid white;
+    padding-left:2vw;
+}
