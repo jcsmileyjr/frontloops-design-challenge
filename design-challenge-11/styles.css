@@ -87,3 +87,17 @@ main {
 #load {
     background-color: black;
 }
+
+.button-style {
+    background-color: black;
+    color:white;
+    width: 20vw;
+    height: 8vh;
+    font-size: 2rem;
+    border-radius: 5px;
+    border:none;
+}
+
+button:hover {
+    padding-bottom:2vh;
+}
