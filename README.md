@@ -9,38 +9,42 @@ _During the 2020 Corvid-19 pandemic, I worked on UI challenges from Frontloops.i
 
 #### 2. Bike Sale Confirmation
 
-![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop3-a.gif)
+![Screen-shot of Bike Sale Confirmation UI](./readme-assets/finished-products/frontloop3-a.gif)
 <hr />
 
 #### 3. Chat Bot with Mark Zuckerburg
 
-![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop4.gif)
+![Screen-shot of Chat Bot with Mark Zuckerburg UI](./readme-assets/finished-products/frontloop4.gif)
 <hr />
 
 #### 4. Online Service Pricing page
 
-![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/fontloops-design-1a.PNG)
+![Screen-shot of Online Service Pricing page UI](./readme-assets/finished-products/fontloops-design-1a.PNG)
 
 #### 5. Plane Flight Ticket for Robert De Niro
 
-![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop5.PNG)
+![Screen-shot of Plane Flight Ticket for Robert De Niro UI](./readme-assets/finished-products/frontloop5.PNG)
 
 #### 6. Login Page with Social Media Sign-in Options
 
-![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop6.gif)
+![Screen-shot of Login Page with Social Media UI](./readme-assets/finished-products/frontloop6.gif)
 
 #### 7. Respecting Women Article
 
-![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloops7.PNG)
+![Screen-shot of Respecting Women Article](./readme-assets/finished-products/frontloops7.PNG)
 
 #### 8. Pastelle City Tourism Ad
 
-![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop8.gif)
+![Screen-shot of Pastelle City Tourism Ad](./readme-assets/finished-products/frontloop8.gif)
 
 #### 9. Digital Wallet Transaction Log
 
-![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop9.gif)
+![Screen-shot of Digital Wallet Transaction Log](./readme-assets/finished-products/frontloop9.gif)
 
 #### 10. Nike Sports Watch Landing Page
 
-![Screen-shot of Credit Card Payment UI](./readme-assets/finished-products/frontloop10.gif)
+![Screen-shot of Nike Sports Watch Landing Page](./readme-assets/finished-products/frontloop10.gif)
+
+#### 11. Washing Machine UI
+
+![Screen-shot of Washing Machine UI](./readme-assets/finished-products/frontloop11.gif)
