@@ -15,7 +15,7 @@ main {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-left: 10vw;
+    padding-left: 17vw;
 }
 
 .display-list-of-material-types > h1 {
@@ -34,7 +34,7 @@ main {
 
 .material-directions-text {
     color: white;
-    padding-left: 12vw;
+    padding-left: 19vw;
 }
 
 .display-directions {
