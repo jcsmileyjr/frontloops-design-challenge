@@ -98,6 +98,15 @@ main {
     border:none;
 }
 
-button:hover {
-    padding-bottom:2vh;
+.button-style:hover {
+    /*background-color: rgb(27, 27, 27);*/
+    color: black;
+    background-color: white;
+    
 }
+
+.button-layout {
+    margin-top: 5vh;
+    text-align: center;
+}
+
