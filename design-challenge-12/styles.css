@@ -87,7 +87,7 @@ footer {
     margin-left: 50px;
 }
 
-#close-icon {
+.close-icon {
     color: grey;
     font-size: larger;
 }

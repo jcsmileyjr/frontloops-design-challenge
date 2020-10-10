@@ -48,3 +48,7 @@ _During the 2020 Corvid-19 pandemic, I worked on UI challenges from Frontloops.i
 #### 11. Washing Machine UI
 
 ![Screen-shot of Washing Machine UI](./readme-assets/finished-products/frontloop11.gif)
+
+#### 12. Account Update UI
+
+![Gif video of account update ui](./readme-assets/finished-products/frontloops-12.gif)
