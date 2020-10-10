@@ -61,6 +61,12 @@ input, textarea {
     border:none;
 }
 
+input::placeholder{
+    color: grey;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
 .articleBottomBorder {
     border-bottom-color: lightgrey;
     border-bottom-width: 1px;
@@ -74,6 +80,7 @@ footer {
     float: right;
     margin-right: 50px;
     color: grey;
+    margin-top: -25px
 }
 
 #white-space-between-elements {
@@ -82,6 +89,7 @@ footer {
 
 #close-icon {
     color: grey;
+    font-size: larger;
 }
 
 .avatar-styling {
@@ -94,4 +102,9 @@ footer {
 
 #avatar-display {
     position: absolute;
+}
+
+.mouse-over:hover {
+    cursor: pointer;
+    color: black;
 }
